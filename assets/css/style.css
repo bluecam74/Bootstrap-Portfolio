@@ -55,6 +55,8 @@ h3 {
   font-weight: 300;
   margin: auto;
   position: absolute;
+  font-size: 24px;
+  border: solid 2px #666666;
 }
 
 
@@ -62,6 +64,20 @@ h3 {
 display: block;
 margin: auto;
 position: relative;
+}
+
+.portImg {
+  width: 200px;
+  height: 200px;
+}
+
+#githubLink {
+  width: 70px;
+  margin: 20px;
+}
+
+#linkedinLink{
+  width: 90px;
 }
 
 .footer_top {
