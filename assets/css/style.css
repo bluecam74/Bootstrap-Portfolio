@@ -25,11 +25,18 @@ body{
   background-color: lightgray;
 
 }
-h2{
+
+.otherTopper{
   border-bottom: solid lightgray 2px;
   color: #4aaaa5;
   padding: 20px;
-  margin-bottom: 20px;
+
+}
+.portfolioTopper{
+  border-bottom: solid lightgray 2px;
+  color: #4aaaa5;
+  padding: 10px;
+  margin: 10px 0 0 15px;
 }
 
 #submit {
@@ -71,17 +78,20 @@ h3 {
 .portImg {
   width: 200px; 
   height: 200px;
-  /* display: block !important ;
-  position: relative !important ; */
+  display: block !important ;
+  position: relative !important ;
 }
 
 #githubLink {
-  width: 70px;
-  margin: 20px;
+  width: 40px;
+  margin-right: 20px;
+  padding-bottom: 0 !important;
 }
 
 #linkedinLink{
-  width: 90px;
+  width: 50px;
+  padding-bottom: 0 !important;
+
 }
 
 .footer_top {
