@@ -5,19 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <script src="./assets/javascript/logic.js"></script>
+
 
   <title>Profile</title>
 </head>
 
 <body>
 
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCb05mQ0yYRfYoNNQMiT4adt5ObP_eMpe4",
+      authDomain: "portfolio-c32ee.firebaseapp.com",
+      databaseURL: "https://portfolio-c32ee.firebaseio.com",
+      projectId: "portfolio-c32ee",
+      storageBucket: "portfolio-c32ee.appspot.com",
+      messagingSenderId: "336620987704"
+    };
+    firebase.initializeApp(config);
+  </script>
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand ml-5 p-3 logo" href="#">Malak Abdul</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -45,27 +63,30 @@
       <div class="span12 p-3">
         <img src="assets/images/RE_Prof_Pic.jpg" alt="Profile Picture" class="float-left prof_pic">
         <p>Malak was born and raised in Orange County. She went to college at UC Irvine and obtained a
-        degree in
-        Criminology and Law. In her free time, she likes to surf, snowboard, and take long drives.
+          degree in
+          Criminology and Law. In her free time, she likes to surf, snowboard, and take long drives.
         </p>
         <p>After experiencing different industries, including real estate, retail management and social work,
-           Malak developed a passion for software development and engineering until ultimately 
-          enrolling in formal classes and programs. She is proud to say that she is currently a Full Stack Web Developer. </p>
-          <p> Technical skills include Node.Js, Express, JavaScript, jQuery, 
-          React.js, React Native, GIT, Github, MongoDB, MySQL, Firebase, HTML, CSS, Bootstrap, Media Queries, 
-          APIs, JSON, REST, AJAX, the command line, computer science fundamentals, writing tests. Malak's background in both 
-          customer service and technical skills make her a great candidate for working in the software engineering industry.
+          Malak developed a passion for software development and engineering until ultimately
+          enrolling in formal classes and programs. She is proud to say that she is currently a Full Stack Web
+          Developer. </p>
+        <p> Technical skills include Node.Js, Express, JavaScript, jQuery,
+          React.js, React Native, GIT, Github, MongoDB, MySQL, Firebase, HTML, CSS, Bootstrap, Media Queries,
+          APIs, JSON, REST, AJAX, the command line, computer science fundamentals, writing tests. Malak's background in
+          both
+          customer service and technical skills make her a great candidate for working in the software engineering
+          industry.
         </p>
       </div>
     </div>
   </div>
   <div class="row p-3"></div>
   <div class="card">
-      <div class="card-header footer_top"></div>
-      <div class="card-body footer_block">
-          <blockquote class="mb-0 text-center">
-          <p style="color: #ffffff">Copyright 2018</p>
-      </div>
+    <div class="card-header footer_top"></div>
+    <div class="card-body footer_block">
+      <blockquote class="mb-0 text-center">
+        <p style="color: #ffffff">Copyright 2018</p>
+    </div>
   </div>
 </body>
 

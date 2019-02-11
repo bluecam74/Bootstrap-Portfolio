@@ -15,7 +15,7 @@
 }
 
 .container{
-  width: 70%;
+  width: 100%;
   align-items: center;
   background-color: #ffffff;
   margin-top: 30px;
@@ -32,7 +32,7 @@ h2{
   margin-bottom: 20px;
 }
 
-input[type=submit] {
+#submit {
   background-color: #4aaaa5;
   color: #ffffff;
   height: 30px;
@@ -42,6 +42,10 @@ input[type=submit] {
 
 }
 
+#errorHeader1 {
+  margin-left: 30px;
+
+}
 h3 {
   border-bottom: 0;
   background-color: #4aaaa5;
@@ -54,21 +58,21 @@ h3 {
   line-height: 30px;
   font-weight: 300;
   margin: auto;
-  position: absolute;
+  position: absolute !important;
   font-size: 24px;
   border: solid 2px #666666;
 }
 
+.project{
+  margin: 15px;
 
-.port_img {
-display: block;
-margin: auto;
-position: relative;
 }
 
 .portImg {
-  width: 200px;
+  width: 200px; 
   height: 200px;
+  /* display: block !important ;
+  position: relative !important ; */
 }
 
 #githubLink {
